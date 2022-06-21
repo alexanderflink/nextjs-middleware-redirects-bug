@@ -1,3 +1,3 @@
 export default function Source() {
-  return <div>This page should not be displayed</div>
+  return <div>This is the redirect source page</div>
 }

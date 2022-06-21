@@ -5,5 +5,5 @@ export default async function middleware(req) {
   const { locale, defaultLocale: nextDefaultLocale, origin, pathname } = nextUrl
 
   // return NextResponse.next()
-  return NextResponse.redirect(`${origin}/source`)
+  return NextResponse.rewrite(`${origin}/rewrite`)
 }
